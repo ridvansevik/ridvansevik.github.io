@@ -1,8 +1,8 @@
 .gallery {
   --s: 130px; /* control the size of the images*/
-  
+
   display: grid;
-  grid-template-columns: repeat(3,auto);
+  grid-template-columns: repeat(3, 1fr); /* Her sütun sabit genişlikte olacak */
   gap: 5px;
   position: relative;
 }
